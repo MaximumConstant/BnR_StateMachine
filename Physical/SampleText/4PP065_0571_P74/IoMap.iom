@@ -1,0 +1,25 @@
+VAR_CONFIG
+	Cyclic#1.gAxis01_DrvIf.iLifeCnt AT %IB."8I64xxxxxxx.00x-1".SDC_LifeCnt;
+	Cyclic#1.gAxis01_DrvIf.iDrvOK AT %IX."8I64xxxxxxx.00x-1".ETAD_Input_Bool_02;
+	Cyclic#1.gAxis01_DrvIf.oSetTime AT %QW."8I64xxxxxxx.00x-1".SDC_SetTime;
+	Cyclic#1.gAxis01_DiDoIf.iLifeCntDriveReady AT %IB."8I64xxxxxxx.00x-1".SDC_LifeCnt;
+	Cyclic#1.gAxis01_DiDoIf.iLifeCntDriveEnable AT %IB."8I64xxxxxxx.00x-1".SDC_LifeCnt;
+	Cyclic#1.gAxis01_DiDoIf.oDriveEnable AT %QX."8I64xxxxxxx.00x-1".CMDD_Output_Bool_00;
+	Cyclic#1.gAxis01_ModuleOk AT %QX."8I64xxxxxxx.00x-1".CMDD_Output_Bool_01;
+	Cyclic#1.gAxis01_ModuleOk AT %QX."8I64xxxxxxx.00x-1".CMDD_Output_Bool_02;
+	Cyclic#1.gAxis01_ModuleOk AT %IX."8I64xxxxxxx.00x-1".ModuleOk;
+	Cyclic#1.gAxis01_DiDoIf.oDriveEnable AT %QX."8I64xxxxxxx.00x-1".CMDD_Output_Bool_03;
+	Cyclic#1.gAxis01_DiDoIf.iDriveReady AT %IX."8I64xxxxxxx.00x-1".ETAD_Input_Bool_02;
+	::Program:driveSM.state AT %IW."8I64xxxxxxx.00x-1".ETAD_Input;
+	::Program:driveSM.command AT %QW."8I64xxxxxxx.00x-1".CMDD_Output;
+	::Program:doorSM.direction AT %IX."X20DI9371".DigitalInput01;
+	::Program:doorSM.sw1 AT %IX."X20DI9371".DigitalInput02;
+	::Program:doorSM.sw2 AT %IX."X20DI9371".DigitalInput03;
+	::Program:doorSM.sw3 AT %IX."X20DI9371".DigitalInput04;
+	::Program:doorSM.sw4 AT %IX."X20DI9371".DigitalInput05;
+	::Program:ledSM.led1 AT %QX."X20DO9322".DigitalOutput02;
+	::Program:ledSM.led2 AT %QX."X20DO9322".DigitalOutput03;
+	::Program:ledSM.led3 AT %QX."X20DO9322".DigitalOutput04;
+	::Program:ledSM.led4 AT %QX."X20DO9322".DigitalOutput05;
+	Cyclic#1.::Program:driveSM.speed AT %QW."8I64xxxxxxx.00x-1".LFRD_Output;
+END_VAR
