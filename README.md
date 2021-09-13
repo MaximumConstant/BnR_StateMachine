@@ -1,2 +1,2 @@
-# BR_StateMachine
-Lab 2
+# BnR_StateMachine
+Simple homework of student
